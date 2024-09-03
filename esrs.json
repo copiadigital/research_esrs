@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Example Corporation",
+    "url": "https://www.example.com",
+    "sustainabilityReport": {
+      "@type": "Report",
+      "reportType": "Sustainability",
+      "datePublished": "2024-01-15",
+      "esrs:environmental": {
+        "@type": "EnvironmentalAspect",
+        "carbonEmissions": {
+          "@type": "QuantitativeValue",
+          "value": 50000,
+          "unitCode": "KG",
+          "description": "Total carbon emissions in the last fiscal year"
+        },
+        "energyConsumption": {
+          "@type": "QuantitativeValue",
+          "value": 1200000,
+          "unitCode": "KWH",
+          "description": "Total energy consumed in the last fiscal year"
+        }
+      },
+      "esrs:social": {
+        "@type": "SocialAspect",
+        "employeeDiversity": {
+          "@type": "QuantitativeValue",
+          "value": 45,
+          "unitCode": "P1",
+          "description": "Percentage of female employees"
+        },
+        "communityEngagement": {
+          "@type": "Text",
+          "description": "Various initiatives to support local communities"
+        }
+      },
+      "esrs:governance": {
+        "@type": "GovernanceAspect",
+        "boardIndependence": {
+          "@type": "QuantitativeValue",
+          "value": 70,
+          "unitCode": "P1",
+          "description": "Percentage of independent directors on the board"
+        },
+        "executiveCompensation": {
+          "@type": "MonetaryAmount",
+          "currency": "GBP",
+          "value": "1.2M",
+          "description": "Total compensation for the executive team"
+        }
+      }
+    }
+  }

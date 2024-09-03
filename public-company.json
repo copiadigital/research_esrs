@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Example Corporation",
+    "url": "https://www.example.com",
+    "logo": "https://www.example.com/logo.png",
+    "sameAs": [
+      "https://www.x.com/ExampleCorp",
+      "https://www.linkedin.com/company/example-corporation"
+    ],
+    "description": "Example Corporation is a multinational technology company specialising in software and consumer electronics.",
+    "foundingDate": "1984-04-01",
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "John Doe"
+      },
+      {
+        "@type": "Person",
+        "name": "Jane Smith"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Example Street",
+      "addressLocality": "Example City",
+      "postalCode": "EX1 2AB",
+      "addressCountry": "UK"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+44-20-7946-0958",
+      "contactType": "Customer Service",
+      "areaServed": "GB",
+      "availableLanguage": ["English"]
+    },
+    "tickerSymbol": "EXC",
+    "ISIN": "GB0000000001",
+    "exchange": "London Stock Exchange",
+    "numberOfEmployees": 10000,
+    "annualRevenue": {
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": "5.7B"
+    },
+    "industry": "Technology"
+  }
